@@ -1,0 +1,15 @@
+# HLSMP-ChatToggle - lang.yml
+# Việt hóa bởi HLSMP
+
+only-players: "&#FF0000Chỉ người chơi mới dùng được lệnh này!"
+chat-is-off: "&#FF0000Chat toàn server đang bị tắt!"
+plugin-reload: "&#00FF00Đã tải lại plugin thành công!"
+no-permission: "&#FF0000Bạn không có quyền thực hiện lệnh này!"
+
+# Trạng thái chat cá nhân
+chat-enabled: "&#00FF00Đã bật nhận tin nhắn chat!"
+chat-disabled: "&#FF0000Đã tắt nhận tin nhắn chat!"
+
+# Trạng thái chat toàn server (chỉ admin)
+global-chat-disabled: "&#FF0000Chat toàn server đã bị TẮT!"
+global-chat-enabled: "&#00FF00Chat toàn server đã được BẬT!"

@@ -1,0 +1,34 @@
+name: HLSMP-ChatToggle
+version: '1.0'
+main: de.elivb.donutChatToggle.Chattoggle
+api-version: '1.21'
+author: EliVB
+description: Chat Toggle plugin for HLSMP
+folia-supported: true
+
+commands:
+  chattoggle:
+    aliases: [togglechat]
+    description: Bật/tắt chat của bản thân
+  chatglobaltoggle:
+    description: Admin bật/tắt chat toàn server
+
+permissions:
+  chattoggle.admin:
+    default: op
+    children:
+      chattoggle.global: true
+      chattoggle.bypass: true
+      chattoggle.reload: true
+
+  chattoggle.global:
+    default: op
+    description: Bật/tắt chat toàn server
+
+  chattoggle.bypass:
+    default: op
+    description: Bypass khi chat toàn server bị tắt
+
+  chattoggle.reload:
+    default: op
+    description: Reload plugin
